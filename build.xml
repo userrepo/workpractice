@@ -22,7 +22,7 @@
 <echo message="Commiting all changes with message" />
 <git command="add">
 <args>
-<arg value="../TestProject/artifacts" />
+<arg value="./artifacts" />
 </args>
 </git>
 <git command="commit">
