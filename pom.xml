@@ -238,7 +238,10 @@
 				</configuration>
 			</plugin>
 		
-  
+  <plugin>
+  <groupId>org.codehaus.cargo</groupId>
+  <artifactId>cargo-maven2-plugin</artifactId>
+  <version>1.5.1-SNAPSHOT</version>
 
   <configuration>
     <container>
