@@ -242,15 +242,6 @@
         <groupId>org.jboss.as.plugins</groupId>
         <artifactId>jboss-as-maven-plugin</artifactId>
         <version>7.1.1.Final</version>
-        <configuration>
-            <hostname>localhost</hostname>
-            <port>8081</port>
-            <username>manager</username>
-            <password>managerp</password>
-            
-            <filename>${project.build.finalName}.war</filename>
-            
-        </configuration>
     </plugin>
 		
 		<plugin>
