@@ -251,30 +251,9 @@
             <filename>${project.build.finalName}.war</filename>
             
         </configuration>
-        <executions>
-            <execution>
-                <id>deploy-war</id>
-                <phase>install</phase>
-                <goals>
-                    <goal>deploy</goal>
-                </goals>
-            </execution>
-        </executions>
     </plugin>
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-			
-			<plugin>
+		<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>1.2.1</version>
