@@ -209,7 +209,10 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<build>
+
+                </executions>
+            </plugin>	
+            <build>
 		<plugins>
 			<plugin>
 				<artifactId>maven-eclipse-plugin</artifactId>
@@ -237,26 +240,12 @@
 					<showDeprecation>true</showDeprecation>
 				</configuration>
 			</plugin>
-			
-			
 			<plugin>
                 <groupId>org.jboss.as.plugins</groupId>
                 <artifactId>jboss-as-maven-plugin</artifactId>
                 <version>7.8.Final</version>
-                <executions>
-                    <execution>
-                        <phase>install</phase>
-                        <goals>
-                            <goal>deploy</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-			
-			
-			
-			
-			
+                </plugin>
+           
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
