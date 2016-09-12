@@ -209,8 +209,6 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
-                </executions>
             </plugin>	
             <build>
 		<plugins>
